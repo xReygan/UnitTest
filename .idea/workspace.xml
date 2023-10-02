@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b76372c-bd3e-49f7-ba6c-c0fe899a2e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_3/EvenOrOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_3/NumbersInInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar_3/EvenOrOddTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar_3/NumberInIntervalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/byte-buddy-1.14.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/byte-buddy-agent-1.14.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/byte-buddy-dep-1.14.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockito-core-5.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objenesis-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/iBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar_4/BookServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2VQmYEMKqWbvN51lu0rvEXASGgm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,30 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/seminar_2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/junit-jupiter-api-5.9.1.jar&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_directory_selection": "C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/seminar_2",
+    "last_opened_file_path": "C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/objenesis-3.3.jar",
+    "onboarding.tips.debug.path": "C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37356323",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.EvenOrOddTest">
-    <configuration name="Calculator.CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator.CalculatorTest" />
+}]]></component>
+  <component name="RunManager" selected="JUnit.BookServiceTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar_4.Main" />
       <module name="UnitTest" />
-      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Calculator.*" />
+          <option name="PATTERN" value="seminar_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,15 +80,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar_2.Main" />
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar_2.*" />
+          <option name="PATTERN" value="seminar_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seminar_4" />
+      <option name="MAIN_CLASS_NAME" value="seminar_4.BookServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testGetBooksByAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar_4" />
+      <option name="MAIN_CLASS_NAME" value="seminar_4.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetBooksByAuthor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,29 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.seminar_2.Main" />
-      <item itemvalue="Application.Calculator.CalculatorTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BookServiceTest" />
+      <item itemvalue="JUnit.BookServiceTest.testGetBooksByAuthor" />
       <item itemvalue="JUnit.EvenOrOddTest" />
       <item itemvalue="JUnit.NumberInIntervalTest" />
-      <item itemvalue="JUnit.VehicleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EvenOrOddTest" />
+        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest.testGetBooksByAuthor" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.NumberInIntervalTest" />
-        <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="Application.seminar_2.Main" />
-        <item itemvalue="Application.Calculator.CalculatorTest" />
+        <item itemvalue="JUnit.EvenOrOddTest" />
       </list>
     </recent_temporary>
   </component>
