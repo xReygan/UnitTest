@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b76372c-bd3e-49f7-ba6c-c0fe899a2e77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/byte-buddy-1.14.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/byte-buddy-agent-1.14.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/byte-buddy-dep-1.14.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockito-core-5.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objenesis-3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/InMemoryBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_4/iBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar_4/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_6/Coverage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar_6/TwoNumericLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar_6/TwoNumericListsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,25 +46,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_directory_selection": "C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/seminar_2",
+    "last_directory_selection": "C:/Users/Atlant/IdeaProjects/UnitTest/src/test/java/seminar_6",
     "last_opened_file_path": "C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/objenesis-3.3.jar",
     "onboarding.tips.debug.path": "C:/Users/Atlant/IdeaProjects/UnitTest/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.37356323",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BookServiceTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar_4.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="seminar_6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TwoNumericListsTest">
+    <configuration name="seminar_6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar_6.Main" />
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar_4.*" />
+          <option name="PATTERN" value="seminar_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,50 +114,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenOrOddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoNumericListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar_3.*" />
+          <option name="PATTERN" value="seminar_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar_3" />
-      <option name="MAIN_CLASS_NAME" value="seminar_3.EvenOrOddTest" />
+      <option name="PACKAGE_NAME" value="seminar_6" />
+      <option name="MAIN_CLASS_NAME" value="seminar_6.TwoNumericListsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberInIntervalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoNumericListsTest.comparingAveragesTwoListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar_3.*" />
+          <option name="PATTERN" value="seminar_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar_3" />
-      <option name="MAIN_CLASS_NAME" value="seminar_3.NumberInIntervalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="seminar_6" />
+      <option name="MAIN_CLASS_NAME" value="seminar_6.TwoNumericListsTest" />
+      <option name="METHOD_NAME" value="comparingAveragesTwoListsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.seminar_6.Main" />
+      <item itemvalue="JUnit.TwoNumericListsTest.comparingAveragesTwoListsTest" />
       <item itemvalue="JUnit.BookServiceTest" />
       <item itemvalue="JUnit.BookServiceTest.testGetBooksByAuthor" />
-      <item itemvalue="JUnit.EvenOrOddTest" />
-      <item itemvalue="JUnit.NumberInIntervalTest" />
+      <item itemvalue="JUnit.TwoNumericListsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoNumericListsTest" />
+        <item itemvalue="Application.seminar_6.Main" />
+        <item itemvalue="JUnit.TwoNumericListsTest.comparingAveragesTwoListsTest" />
         <item itemvalue="JUnit.BookServiceTest" />
         <item itemvalue="JUnit.BookServiceTest.testGetBooksByAuthor" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.NumberInIntervalTest" />
-        <item itemvalue="JUnit.EvenOrOddTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +181,9 @@
       <FILTER>seminar_3.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTest$VehicleTest.ic" NAME="VehicleTest Coverage Results" MODIFIED="1695319341057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UnitTest$TwoNumericListsTest.ic" NAME="TwoNumericListsTest Coverage Results" MODIFIED="1696690557560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar_6.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTest$NumberInIntervalTest.ic" NAME="NumberInIntervalTest Coverage Results" MODIFIED="1695412422125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>seminar_3.*</FILTER>
     </SUITE>
